@@ -43,9 +43,10 @@ article {
 
 header {
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 200px 1fr;
     align-items: center;
     background-color: var(--secondary-color);
+    padding: 1rem;
 }
 
 nav ul {
@@ -58,6 +59,7 @@ nav a {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: bold;
+    padding: 1rem;
 }
 
 .hero {
@@ -120,4 +122,41 @@ footer {
 
 .socialmedia img {
     width: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.history-content img {
+    width: 100%;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+figure {
+    text-align: center;
+
+}
+
+figure img {
+    width: 100%;
+    max-width: 150px;
 }
