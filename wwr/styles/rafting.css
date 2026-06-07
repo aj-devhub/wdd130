@@ -160,3 +160,52 @@ figure img {
     width: 100%;
     max-width: 150px;
 }
+
+/* ==== CONTACT PAGE STYLES ==== */
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.map,
+.form-section {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+iframe {
+    border: none;
+}
